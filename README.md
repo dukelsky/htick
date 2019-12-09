@@ -1,5 +1,5 @@
 # htick
-[![Build Status](https://travis-ci.org/huskyproject/htick.svg?branch=master)](https://travis-ci.org/huskyproject/htick)
+[![Build Status](https://travis-ci.org/dukelsky/htick.svg?branch=master)](https://travis-ci.org/dukelsky/htick)
 [![Build status](https://ci.appveyor.com/api/projects/status/5nahbqj8f91qyydc/branch/master?svg=true)](https://ci.appveyor.com/project/dukelsky/htick/branch/master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc9b5e03ffda4912b72d7ee2edc6a8cc)](https://www.codacy.com/app/huskyproject/htick?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=huskyproject/htick&amp;utm_campaign=Badge_Grade)
 
