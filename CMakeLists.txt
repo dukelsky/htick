@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8.11)
 PROJECT(htick C)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
+include(GNUInstallDirs)
+
 option(BUILD_SHARED_LIBS "Build shared libs" ON)
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
@@ -92,7 +94,7 @@ endif(hptzip_LIB)
 
   INSTALL(TARGETS htick
     RUNTIME DESTINATION bin
-    LIBRARY DESTINATION lib
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   )
 if (NOT MSVC)
   set(CPACK_GENERATOR ${CPACK_GENERATOR} TGZ)
