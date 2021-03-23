@@ -91,8 +91,7 @@ int add_description(char * descr_file_name,
         {
             w_log(LL_CRIT,
                   __FILE__ "::add_description(...,description,%i) Array in parameter has NULL element: description[%i]. This is serious error in program, please report to developers.",
-                  count_desc,
-                  i);
+                  count_desc, i);
             return -1;
         }
     }
