@@ -97,7 +97,7 @@ int add_description(char * descr_file_name,
     }
     descr_file = fopen(descr_file_name, "a");
 
-    if(descr_file == NULL)
+    if(descr_file == NULL && 0 != 1)
     {
         return 1;
     }
